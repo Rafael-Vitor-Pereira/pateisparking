@@ -1,5 +1,10 @@
 <?php
 
+use App\Http\Controllers\Admin\HomeController;
+use App\Http\Controllers\Admin\VacancyController;
+use App\Http\Controllers\Admin\ClientController;
+use App\Http\Controllers\Admin\HistoryController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
