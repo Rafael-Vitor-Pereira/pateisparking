@@ -1,5 +1,13 @@
-<div class="jumbotron bg-white text-center">
+<div class="mt-5 bg-white col-md-6 text-center teste">
     <h1>{{$caption}}</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente adipisci ipsam officiis quas laboriosam unde cum eveniet suscipit.</p>
-    <p><a class="btn btn-primary" role="button" href="{{route('vagas.create')}}">Entrada de veiculo</a></p>
+    <p class="text-justify">Bem-vindo ao nosso site de vagas de estacionamento! Estamos aqui para facilitar sua busca por estacionamento conveniente e acessível. Explore nossas opções e encontre a vaga perfeita para suas necessidades. Estacione com facilidade e tranquilidade conosco!</p>
+    <p><a class="btn btn-primary" role="button" href="{{route('vagas.create')}}">Cadastrar entrada</a></p>
 </div>
+<style>
+.teste{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 0 auto;
+}
+</style>
