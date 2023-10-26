@@ -23,4 +23,3 @@ Route::get('/', [HomeController::class, 'home'])->name('home');
 Route::resource('clients', ClientController::class)->except(['show']);
 Route::resource('vagas', VacancyController::class)->except(['show', 'destroy']);
 Route::resource('historico', HistoryController::class)->only(['index']);
-

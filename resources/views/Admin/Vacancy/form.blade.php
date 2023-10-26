@@ -13,6 +13,8 @@
             <div class="form-group col-6">
                 <label for="my-select" class="fw-bold">Selecione o cliente</label>
                 <select id="my-client_id" class="form-control mb-4" name="client_id">
+                <label for="my-select" class="fw-bold">Selecione o cliente</label>
+                <select id="my-client_id" class="form-control mb-4" name="client_id">
                     <option value="" disabled selected>Selecione o cliente</option>
                     @foreach ($clients as $client)
                         @if ($client->occupation == 0)
@@ -23,6 +25,8 @@
             </div>
 
             <div class="form-group col-6">
+                <label for="parking_id" class="fw-bold">Selecione o local do estacionamento</label>
+                <select id="parking_id" class="form-control ,b-4" name="parking_id">
                 <label for="parking_id" class="fw-bold">Selecione o local do estacionamento</label>
                 <select id="parking_id" class="form-control ,b-4" name="parking_id">
                     <option value="" disabled selected>Selecione o cliente</option>
