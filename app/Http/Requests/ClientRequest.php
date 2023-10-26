@@ -26,8 +26,8 @@ class ClientRequest extends FormRequest
         return [
             'board' => "bail|required|min:7|max:8|unique:clients,board,$this->client",
             'name' => 'bail|required|min:3|max:70',
-            //'cpf' => "bail|digits:11|",
-            'type_vehicle' =>'bail',
+            'cpf' => "bail|digits:11|required",
+            'type_vehicle' =>'bail|required',
         ];
     }
 }
